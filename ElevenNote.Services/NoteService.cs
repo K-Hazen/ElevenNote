@@ -37,7 +37,7 @@ namespace ElevenNote.Services
 
         public IEnumerable<NoteListItem> GetNotes()
         {
-            using (var ctx = new ApplicationDbContext)
+            using (var ctx = new ApplicationDbContext())
             {
                 var query =
                     ctx
