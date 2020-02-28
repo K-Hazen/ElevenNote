@@ -13,11 +13,14 @@ namespace ElevenNote.Data
         [Key]
         public int NoteId { get; set; }
 
+        //Adding a foreign Key... you need the "virtual type" then the addition of the string representation. Must have the categoryID to add the foreign key to the table 
+
         [ForeignKey(nameof(Category))]
         public int? CategoryId { get; set; }
         public virtual Category Category { get; set; }
 
        
+        //We want this authorization so that only the user can use the notes
         [Required]
         public Guid OwnerId { get; set; }
 
