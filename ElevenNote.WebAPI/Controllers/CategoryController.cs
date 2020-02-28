@@ -39,7 +39,7 @@ namespace ElevenNote.WebAPI.Controllers
             return Ok(); 
         }
 
-        public CategoryService CreateCategoryService()
+        private CategoryService CreateCategoryService()
         {
             var categoryService = new CategoryService();
             return categoryService; 

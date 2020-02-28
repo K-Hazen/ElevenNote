@@ -16,7 +16,7 @@ namespace ElevenNote.Services
                 new Category()
                 {
                     CategoryId = model.CategoryId,
-                    Name = model.Name,
+                    Name = model.Name
                 };
 
             using (var ctx = new ApplicationDbContext())

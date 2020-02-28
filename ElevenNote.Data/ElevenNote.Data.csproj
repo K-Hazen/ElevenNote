@@ -109,6 +109,10 @@
     <Compile Include="Migrations\202002271708122_removedRequiredFromModifiedDate.designer.cs">
       <DependentUpon>202002271708122_removedRequiredFromModifiedDate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002280137073_swaggerUpdate.cs" />
+    <Compile Include="Migrations\202002280137073_swaggerUpdate.designer.cs">
+      <DependentUpon>202002280137073_swaggerUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -123,6 +127,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002271708122_removedRequiredFromModifiedDate.resx">
       <DependentUpon>202002271708122_removedRequiredFromModifiedDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002280137073_swaggerUpdate.resx">
+      <DependentUpon>202002280137073_swaggerUpdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
